@@ -17,16 +17,14 @@ namespace WebApp.Controllers
                new Employee{ Id=105,Name="Irfan",Email="Irfan@logichubss.com",Salary=50000},
             };
 
+
+
             List<string> players = new List<string>();
             players.Add("hazim");
             players.Add("abid");
             players.Add("aqib");
             players.Add("aqib");
             players.Add("aqib");
-
-            //ViewData["welcome"]="Welcome to logichub";
-            //ViewData["players"]=players;
-            //ViewData["salary"]=80000;
 
             ViewBag.Welcome="Welcome to logichub";
             ViewBag.Salary=80000;
