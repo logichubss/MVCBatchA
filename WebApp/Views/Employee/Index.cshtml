@@ -1,28 +1,4 @@
 ﻿<h1>Logichub Players</h1>
-@ViewBag.Welcome
 
-<h1>@ViewBag.Salary</h1>
-<ul>
-    @foreach (string player in ViewBag.Players)
-    {
-        <li>@player</li>
-    }
-</ul>
+@*<h1>@TempData["Id"]</h1>*@
 
-<table>
-    <tr>
-        <td>Id</td>
-        <td>Name</td>
-        <td>Email</td>
-        <td>Salary</td>
-    </tr>
-    @foreach (var employee in ViewBag.Employees)
-    {
-        <tr>
-            <td>@employee.Id</td>
-            <td>@employee.Name</td>
-            <td>@employee.Email</td>
-            <td>@employee.Salary</td>
-        </tr>
-    }
-</table>
